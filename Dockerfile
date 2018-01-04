@@ -16,7 +16,7 @@ RUN apt-get -y dist-upgrade
 RUN apt-get --no-install-recommends -y install \
       build-essential ca-certificates clang clang-format cmake curl git g++ python \
       gcc-arm-none-eabi binutils-arm-none-eabi gdb-arm-none-eabi \
-      libstdc++-arm-none-eabi-newlib libgl1-mesa-glx \
+      libstdc++-arm-none-eabi-newlib libgl1-mesa-glx libglib2.0-0 \
       libnewlib-arm-none-eabi ccache autoconf automake virtualenv \
       unzip libpq-dev python3-dev sudo \
       python3-pip
